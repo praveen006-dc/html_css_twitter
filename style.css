@@ -1,0 +1,22 @@
+.container{
+    grid-template-columns: 1fr 2fr 1.5fr;
+    grid-template-rows: 100%;
+    display: grid;
+    height: 100%;
+    width: 100%;
+}
+
+.maincontent{
+    background-color: green;
+    height: 100%;
+}
+
+.sidebar-left{
+ background-color: yellow;
+ height: 100%;
+}
+
+.sidebar-right{
+background-color: red;
+height: 100%;
+}
